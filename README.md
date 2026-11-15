@@ -11,6 +11,11 @@ O objetivo é documentar o raciocínio por trás de cada máquina — recon, enu
 
 | Máquina | SO | Dificuldade | Tópicos principais |
 |---------|-----|-------------|--------------------|
+| [Bashed](./Bashed) | Linux | Easy | Web shell exposto · sudo misconfig · cron como root |
+| [Cap](./Cap) | Linux | Easy | IDOR (download de PCAP) · credenciais em tráfego · Linux capabilities |
+| [Lame](./Lame) | Linux | Easy | Samba `username map script` (CVE-2007-2447) → root |
+| [Mirai](./Mirai) | Linux (Raspberry Pi) | Easy | Credenciais padrão · sudo · recuperação de dados em dispositivo |
+| [Toolbox](./Toolbox) | Windows | Easy | SQLi (PostgreSQL) · RCE em container Docker · acesso ao host |
 | [Writeup](./Writeup) | Linux (Devuan) | Easy | SQLi (CVE-2019-9053) · Password Cracking · PATH Hijacking |
 
 ---
